@@ -1,0 +1,130 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgba(83, 71, 71, 0.664), rgba(72, 83, 134, 0.644));
+
+
+
+}
+
+form {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.logo:hover {
+    transition: .5s;
+    transform: rotate(360deg);
+}
+
+.login_box {
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(92, 179, 179, 0.664);
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: -10px -5px 10px 10px rgb(95, 107, 106);
+
+
+}
+
+
+.input_username input {
+    width: 80%;
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    transition: .5s;
+    font-size: 16px;
+    position: relative;
+    background-color: transparent;
+    transition: .5s;
+
+
+
+}
+
+.input_username input:hover {
+    background-color: #fff;
+}
+
+#kham {
+    padding-bottom: 30px;
+    padding-top: 10px;
+
+}
+
+button {
+
+    padding: 10px;
+    width: 330px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40%;
+    transition: .5s;
+    margin-left: 20px;
+    background-color: rgba(95, 202, 202, 0.822);
+    font-size: 16px;
+    position: relative;
+
+
+}
+
+button:hover {
+    background-color: rgba(71, 189, 60, 0.781);
+    color: rgb(25, 219, 25);
+
+}
+
+.last_part {
+    display: flex;
+
+
+}
+
+.forget {
+    width: 50%;
+    margin-left: 10px;
+    padding: 15px;
+    margin-top: 15px;
+
+
+}
+
+h1 {
+    color: #fff;
+}
+
+h1:hover {
+    color: rgba(160, 135, 90, 0.61);
+    transition: .5s;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+
+a:hover {
+    color: orange;
+}
+
+h1 {
+    text-align: center;
+}
