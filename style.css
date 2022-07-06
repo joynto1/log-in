@@ -66,27 +66,20 @@ form {
 
 }
 
-button {
-
-    padding: 10px;
-    width: 330px;
-    margin-left: 20px;
+#button {
+    color: rgba(228, 238, 227, 0.836);
     border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-left: 40%;
-    transition: .5s;
     margin-left: 20px;
-    background-color: rgba(95, 202, 202, 0.822);
-    font-size: 16px;
-    position: relative;
-
+    padding: 10px 37%;
+    border-radius: 10px;
+    border-bottom: 1px solid #fff;
+    background-color: rgba(52, 172, 82, 0.747);
 
 }
 
-button:hover {
-    background-color: rgba(71, 189, 60, 0.781);
-    color: rgb(25, 219, 25);
+#button:hover {
+    background-color: #fff;
+    color: rgb(142, 160, 43);
 
 }
 
@@ -110,7 +103,7 @@ h1 {
 }
 
 h1:hover {
-    color: rgba(160, 135, 90, 0.61);
+    color: rgba(223, 167, 64, 0.781);
     transition: .5s;
 }
 
