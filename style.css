@@ -12,6 +12,7 @@ body {
 form {
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
 
 }
 
@@ -33,7 +34,7 @@ form {
     border-radius: 5px;
     font-size: 16px;
     box-shadow: 0px 0px 20px 10px rgb(95, 107, 106);
-
+    box-sizing: border-box;
 
 }
 
@@ -148,4 +149,138 @@ a:hover {
 
 h1 {
     text-align: center;
+}
+
+@media screen and (max-width:700px) {
+
+    .logo:hover {
+        transition: .5s;
+        transform: rotate(360deg);
+    }
+
+    .login_box {
+        margin-top: 20%;
+        margin-left: 10%;
+        width: 80%;
+        position: absolute;
+        box-sizing: border-box;
+        background-color: rgba(92, 179, 179, 0.664);
+        padding: 20px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        box-shadow: 0px 0px 20px 10px rgb(95, 107, 106);
+        box-sizing: border-box;
+
+    }
+
+    span {
+        position: absolute;
+        left: 80%;
+        top: 47%;
+    }
+
+
+
+    #pass_logo {
+        position: absolute;
+        left: 80%;
+        top: 64%;
+
+    }
+
+
+
+    .input_username input {
+        width: 80%;
+        padding: 10px;
+        margin-left: 20px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        border-radius: 10px;
+        outline: none;
+        transition: .5s;
+        font-size: 16px;
+        position: relative;
+        background-color: transparent;
+        transition: .5s;
+
+
+
+    }
+
+    .input_username input:focus {
+        border: 1px solid rgb(126, 236, 213);
+        background-color: rgba(226, 216, 233, 0.712);
+    }
+
+    .input_username input:hover {
+        background-color: rgba(65, 60, 60, 0.63);
+    }
+
+    #kham {
+        padding-bottom: 30px;
+        padding-top: 10px;
+
+    }
+
+    #button {
+        color: rgba(228, 238, 227, 0.836);
+        border: none;
+        margin-left: 20px;
+        padding: 10px 37%;
+        border-radius: 10px;
+        border-bottom: 1px solid #fff;
+        background-color: rgba(52, 172, 82, 0.747);
+
+    }
+
+    #button:hover {
+        background-color: #fff;
+        color: rgb(142, 160, 43);
+
+    }
+
+    .last_part {
+        display: flex;
+
+
+    }
+
+    .forget {
+        width: 50%;
+        margin-left: 10px;
+        padding: 15px;
+        margin-top: 15px;
+
+
+    }
+
+
+
+    h1 {
+        color: #fff;
+    }
+
+    h1:hover {
+        color: rgba(223, 167, 64, 0.781);
+        transition: .5s;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        transition: .5s;
+    }
+
+    a:hover {
+        color: orange;
+    }
+
+    h1 {
+        text-align: center;
+        color: aqua;
+        font-size: 26px;
+
+    }
 }
